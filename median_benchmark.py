@@ -3,8 +3,7 @@ import random
 import heapq
 from functools import wraps
 
-def generate_test_file(filename, n=100000):
-#def generate_test_file(filename, n=10000000):
+def generate_test_file(filename, n=10000000):
     """Generate a test file with random numbers"""
     print(f"Generating test file with {n} numbers...")
     with open(filename, 'w') as f:
@@ -205,7 +204,7 @@ if __name__ == "__main__":
     filename = "numbers.txt"
 
     # Generate test file
-    generate_test_file(filename, n=100000)  # Adjust size as needed
+    generate_test_file(filename, n=10000000)  # Adjust size as needed
 
     # Read numbers
     print("Reading numbers from file...")
