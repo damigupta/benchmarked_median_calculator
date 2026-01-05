@@ -250,4 +250,4 @@ if __name__ == "__main__":
     # Returns (key, value)
     min_key, min_val = min(times.items(), key=lambda item: item[1])
 
-    print(f"\n\nMin value is for method {min_key}, at: {min_val:.4f} seconds")
+    print(f"\n\nThe fastest method is {min_key}, at: {min_val:.4f} seconds")
